@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "node-prod-api",
       script: "index.js",
-      instances: "max",
+      instances: 2,
       exec_mode: "cluster",
       watch: false,
       max_memory_restart: "250M",
